@@ -1,5 +1,7 @@
 function handleClick(event) {
-  console.log("click", event.target.textContent);
+  if (event.target.matches("button")) {
+    console.log("click", event);
+  }
 }
 
 document.querySelector("main").addEventListener("click", handleClick);

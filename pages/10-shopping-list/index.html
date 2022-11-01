@@ -6,27 +6,31 @@
 
     <link rel="stylesheet" href="/css/style.css" />
 
-    <title>Contact</title>
+    <title>Shopping List</title>
   </head>
   <body>
     <nav class="text-center"><a href="/index.html">Home</a></nav>
 
+    <heading>
+      <h1>Shopping List</h1>
+    </heading>
+
     <main>
       <form>
         <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="name" />
+          <label for="item">Item</label>
+          <input
+            type="text"
+            id="item"
+            name="item"
+            placeholder="Item"
+            required
+          />
         </div>
-
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="email" />
-        </div>
-
-        <button type="submit">Submit</button>
+        <button type="submit">Add Item</button>
       </form>
 
-      <p id="response"></p>
+      <ul></ul>
     </main>
 
     <script src="./script.js"></script>

@@ -49,6 +49,18 @@
     @apply rounded;
   }
 
+  input[type="checkbox"] + label {
+    @apply not-sr-only;
+  }
+
+  fieldset div {
+    @apply flex items-center gap-x-1;
+  }
+
+  legend {
+    @apply my-2 text-center text-lg font-bold;
+  }
+
   p {
     @apply text-center;
   }

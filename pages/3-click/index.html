@@ -7,19 +7,21 @@
     <!-- Base styles (absolute path) -->
     <link rel="stylesheet" href="/css/style.css" />
 
-    <title>11: Dark-Light Toggle</title>
+    <title>3: Clicks</title>
   </head>
   <body>
-    <h1>11: Dark-Light Toggle</h1>
     <nav class="text-center"><a href="/index.html">Home</a></nav>
 
-    <main class="flex h-screen flex-col items-center justify-center">
-      <label class="switch">
-        <span class="relative left-1">Dark</span>
-        <input type="checkbox" id="toggle" class="peer" />
-        <span class="slider"></span>
-        Light
-      </label>
+    <main
+      class="flex flex-col items-center justify-center gap-y-16 bg-yellow-200 py-8"
+    >
+      <button type="button">Alert</button
+      ><button type="button">Toggle Theme</button
+      ><button type="button">Lottery</button
+      >
+      <p class="text-5xl"></p>
+
+      <button type="button">Refresh</button>
     </main>
 
     <script src="./script.js"></script>

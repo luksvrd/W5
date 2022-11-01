@@ -10,4 +10,8 @@
   .slider {
     @apply absolute inset-0 h-8 w-8 transform rounded-full bg-white shadow transition-transform before:absolute before:rounded-full before:shadow before:transition-transform peer-checked:translate-x-8 peer-checked:transform;
   }
+
+  .letter {
+    @apply h-11 w-11;
+  }
 }
